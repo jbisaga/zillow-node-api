@@ -1,17 +1,16 @@
-# node-zillow [![Build Status](https://secure.travis-ci.org/ralucas/node-zillow.png?branch=master)](http://travis-ci.org/ralucas/node-zillow) [![Coverage Status](https://coveralls.io/repos/github/ralucas/node-zillow/badge.svg)](https://coveralls.io/github/ralucas/node-zillow)
+# zillow-node-api [![Build Status](https://secure.travis-ci.org/ralucas/node-zillow.png?branch=master)](http://travis-ci.org/ralucas/node-zillow) [![Coverage Status](https://coveralls.io/repos/github/ralucas/node-zillow/badge.svg)](https://coveralls.io/github/ralucas/node-zillow)
 
 Node wrapper for the Zillow API
 
 ## Getting Started
-Install the module with: `npm install node-zillow`
+Install the module with: `npm install zillow-node-api`
 
 ```js
-var Zillow = require('node-zillow');
+const Zillow = require('zillow-node-api');
 
-//Instantiate
-var zillow = new Zillow('your zws-id', options);
+// Instantiate
+const zillow = new Zillow('your-zws-id', options);
 ```
-`var your-zws-id = process.env.ZWSID` is the recommended way
 
 #### Accepted options
 https - default is `false`
